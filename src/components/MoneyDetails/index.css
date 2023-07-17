@@ -1,0 +1,41 @@
+.money-details-li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.container {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 12px;
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px #84cc16 solid;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px #06b6d4 solid;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px #7c3aed solid;
+}
+.img {
+  height: 40px;
+  margin-right: 20px;
+}
+.balance-para {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: #475569;
+  font-size: 12px;
+}
+.rs-para {
+  margin: 0px;
+  color: #475569;
+  font-size: 18px;
+}
